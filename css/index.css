@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.movie-poster {
+    width: 200px;
+    height: 300px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.movie-poster:hover {
+    transform: scale(1.1);
+}
+
+button:hover {
+    background-color: lightgray;
+}
+
+@keyframes changeColorAnimation {
+    0% { color: black; }
+    50% { color: red; }
+    100% { color: black; }
+}
+
+.change-color-animation {
+    animation: changeColorAnimation 2s ease;
+}
